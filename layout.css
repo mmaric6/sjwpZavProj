@@ -1,0 +1,592 @@
+nav{
+    height: 6.25em;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+}
+.horizontal-list {
+    width: 66.75em;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.main_index{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 6.25em;
+    height: 70em;
+}
+.slika1{
+    height: 20em;
+}
+.article1{
+    margin-right: 5em;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+.article1 a{
+    width: 100%;
+    display: flex;
+}
+.article1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slika_o_nama{
+    width:17em;
+}
+.article2{
+   display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+.article2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article3{
+    margin-top: 2em;
+    margin-left: 2em;
+    display:flex;
+}
+.article3 p{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slika_za_trgovinu{
+    height: 17em;
+}
+.section_ar23{
+    display: flex;
+    flex-direction: row;
+}
+.article4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+footer {
+    padding: 1.25em;
+    text-align: center;
+    font-size: 0.875em;
+}
+
+.footer-links {
+    margin-bottom: 0.625em;
+}
+
+.footer-links a {
+    margin: 0.3125em;
+    padding: 0.5em 0.75em;
+    border-radius: 0.25em;
+}
+.main_trgovina{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 6.25em;
+    height: 60em;
+}
+.main_o_nama{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6.25em;
+    height: 50em;
+}
+
+.prijavi_se_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_prijavi_se{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.prijavi_se_main_main{
+    margin: 5em;
+}
+.main_katane{
+    display: flex;
+    flex-direction: row;
+    margin: 6.25em;
+    height: 60em;
+}
+.image_o_katanama{
+    height:30em;
+}
+.article_katane{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.katane_margin{
+    margin: 2em;
+}
+.margin_left_right{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12.5em;
+    padding: 0.625em;
+    border-radius: 0.25em;
+    text-align: center;
+    margin: 1em;
+}
+
+.item-image {
+    width: 9.375em;
+    height: 9.375em;
+    margin-bottom: 0.625em;
+}
+
+.item-name {
+    font-weight: bold;
+    margin-bottom: 0.3125em;
+}
+
+.item-price {
+    margin-bottom: 0.3125em;
+}
+
+.ponuda{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+.article4_h1{
+    display: flex;
+    justify-content: center;
+}
+.main_item{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 6.25em;
+    height: 50em;
+}
+.item1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media(max-width:23em){
+    nav{
+        height: 6.25em;
+    }
+    .ikona{
+     height:2em
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        align-items: center;
+    }
+    .horizontal-list {
+        width: 20em;
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+    .main_index{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 110em;
+    }
+    .slika1{
+        height: 5em;
+    }
+    .article1{
+        margin-right: 5em;
+        margin-left: 5em;
+        margin-top: 2em;
+    }
+    .article1 a{
+        width: 100%;
+        display: flex;
+    }
+    .article1 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slika_o_nama{
+        width:10em;
+    }
+    .article2{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-left: 5em;
+        margin-top: 2em;
+    }
+    .article2 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .article3{
+        margin-top: 2em;
+        margin-left: 2em;
+        display:flex;
+    }
+    .article3 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slika_za_trgovinu{
+        height: 10em;
+    }
+    .section_ar23{
+        display: flex;
+        flex-direction: row;
+    }
+    .article4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2em;
+    }
+
+    footer {
+        padding: 1.25em;
+        text-align: center;
+        font-size: 0.875em;
+    }
+
+    .footer-links {
+        margin-bottom: 0.625em;
+    }
+
+    .footer-links a {
+        margin: 0.3125em;
+        padding: 0.5em 0.75em;
+        border-radius: 0.25em;
+    }
+    .main_trgovina{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 6.25em;
+        height: 102em;
+    }
+    .main_o_nama{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6.25em;
+        height: 50em;
+    }
+
+    .prijavi_se_main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_prijavi_se{
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .prijavi_se_main_main{
+        margin: 5em;
+    }
+    .main_katane{
+        display: flex;
+        flex-direction: row;
+        margin: 6.25em;
+        height: 90em;
+    }
+    .image_o_katanama{
+        height:30em;
+    }
+    .article_katane{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .katane_margin{
+        margin: 2em;
+    }
+    .margin_left_right{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 12.5em;
+        padding: 0.625em;
+        border-radius: 0.25em;
+        text-align: center;
+        margin: 1em;
+    }
+
+    .item-image {
+        width: 9.375em;
+        height: 9.375em;
+        margin-bottom: 0.625em;
+    }
+
+    .item-name {
+        font-weight: bold;
+        margin-bottom: 0.3125em;
+    }
+
+    .item-price {
+        margin-bottom: 0.3125em;
+    }
+
+    .ponuda{
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
+        margin: 1em;
+    }
+    .article4_h1{
+        display: flex;
+        justify-content: center;
+    }
+    .main_item{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 6.25em;
+        height: 50em;
+    }
+    .item1{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(min-width:119em){
+    nav{
+        height: 6.25em;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        align-items: center;
+    }
+    .horizontal-list {
+        width: 108em;
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+    .main_index{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 6.25em 25em;
+        height: 70em;
+    }
+    .slika1{
+        height: 20em;
+    }
+    .article1{
+        margin-right: 5em;
+        margin-left: 5em;
+        margin-top: 2em;
+    }
+    .article1 a{
+        width: 100%;
+        display: flex;
+    }
+    .article1 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slika_o_nama{
+        width:17em;
+    }
+    .article2{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-left: 5em;
+        margin-top: 2em;
+    }
+    .article2 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .article3{
+        margin-top: 2em;
+        margin-left: 2em;
+        display:flex;
+    }
+    .article3 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slika_za_trgovinu{
+        height: 17em;
+    }
+    .section_ar23{
+        display: flex;
+        flex-direction: row;
+    }
+    .article4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2em;
+    }
+
+    footer {
+        padding: 1.25em;
+        text-align: center;
+        font-size: 0.875em;
+    }
+
+    .footer-links {
+        margin-bottom: 0.625em;
+    }
+
+    .footer-links a {
+        margin: 0.3125em;
+        padding: 0.5em 0.75em;
+        border-radius: 0.25em;
+    }
+    .main_trgovina{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 6.25em;
+        height: 40em;
+    }
+    .main_o_nama{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6.25em;
+        height: 50em;
+    }
+
+    .prijavi_se_main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_prijavi_se{
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .prijavi_se_main_main{
+        margin: 5em;
+    }
+    .main_katane{
+        display: flex;
+        flex-direction: row;
+        margin: 6.25em;
+        height: 50em;
+    }
+    .image_o_katanama{
+        height:30em;
+    }
+    .article_katane{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .katane_margin{
+        margin: 2em;
+    }
+    .margin_left_right{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 12.5em;
+        padding: 0.625em;
+        border-radius: 0.25em;
+        text-align: center;
+        margin: 1em;
+    }
+
+    .item-image {
+        width: 9.375em;
+        height: 9.375em;
+        margin-bottom: 0.625em;
+    }
+
+    .item-name {
+        font-weight: bold;
+        margin-bottom: 0.3125em;
+    }
+
+    .item-price {
+        margin-bottom: 0.3125em;
+    }
+
+    .ponuda{
+        display: flex;
+        justify-content: center;
+        margin: 1em;
+    }
+    .article4_h1{
+        display: flex;
+        justify-content: center;
+    }
+    .main_item{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 6.25em;
+        height: 50em;
+    }
+    .item1{
+        display: flex;
+        justify-content: center;
+    }
+
+}
